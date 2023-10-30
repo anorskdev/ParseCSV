@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F9932212AF0201D00FF934D /* ParseCSVApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9932202AF0201D00FF934D /* ParseCSVApp.swift */; };
+		9F9932232AF0201D00FF934D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9932222AF0201D00FF934D /* ContentView.swift */; };
+		9F9932252AF0202100FF934D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F9932242AF0202100FF934D /* Assets.xcassets */; };
+		9F9932282AF0202100FF934D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F9932272AF0202100FF934D /* Preview Assets.xcassets */; };
+		9F9932322AF0202200FF934D /* ParseCSVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9932312AF0202200FF934D /* ParseCSVTests.swift */; };
+		9F99323C2AF0202200FF934D /* ParseCSVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F99323B2AF0202200FF934D /* ParseCSVUITests.swift */; };
+		9F99323E2AF0202200FF934D /* ParseCSVUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F99323D2AF0202200FF934D /* ParseCSVUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F99322E2AF0202200FF934D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F9932152AF0201D00FF934D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F99321C2AF0201D00FF934D;
+			remoteInfo = ParseCSV;
+		};
+		9F9932382AF0202200FF934D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F9932152AF0201D00FF934D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F99321C2AF0201D00FF934D;
+			remoteInfo = ParseCSV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9F99321D2AF0201D00FF934D /* ParseCSV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParseCSV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F9932202AF0201D00FF934D /* ParseCSVApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseCSVApp.swift; sourceTree = "<group>"; };
+		9F9932222AF0201D00FF934D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9F9932242AF0202100FF934D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F9932272AF0202100FF934D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9F99322D2AF0202200FF934D /* ParseCSVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParseCSVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F9932312AF0202200FF934D /* ParseCSVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseCSVTests.swift; sourceTree = "<group>"; };
+		9F9932372AF0202200FF934D /* ParseCSVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParseCSVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F99323B2AF0202200FF934D /* ParseCSVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseCSVUITests.swift; sourceTree = "<group>"; };
+		9F99323D2AF0202200FF934D /* ParseCSVUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseCSVUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F99321A2AF0201D00FF934D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F99322A2AF0202200FF934D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F9932342AF0202200FF934D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F9932142AF0201D00FF934D = {
+			isa = PBXGroup;
+			children = (
+				9F99321F2AF0201D00FF934D /* ParseCSV */,
+				9F9932302AF0202200FF934D /* ParseCSVTests */,
+				9F99323A2AF0202200FF934D /* ParseCSVUITests */,
+				9F99321E2AF0201D00FF934D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F99321E2AF0201D00FF934D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F99321D2AF0201D00FF934D /* ParseCSV.app */,
+				9F99322D2AF0202200FF934D /* ParseCSVTests.xctest */,
+				9F9932372AF0202200FF934D /* ParseCSVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F99321F2AF0201D00FF934D /* ParseCSV */ = {
+			isa = PBXGroup;
+			children = (
+				9F9932202AF0201D00FF934D /* ParseCSVApp.swift */,
+				9F9932222AF0201D00FF934D /* ContentView.swift */,
+				9F9932242AF0202100FF934D /* Assets.xcassets */,
+				9F9932262AF0202100FF934D /* Preview Content */,
+			);
+			path = ParseCSV;
+			sourceTree = "<group>";
+		};
+		9F9932262AF0202100FF934D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9F9932272AF0202100FF934D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9F9932302AF0202200FF934D /* ParseCSVTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F9932312AF0202200FF934D /* ParseCSVTests.swift */,
+			);
+			path = ParseCSVTests;
+			sourceTree = "<group>";
+		};
+		9F99323A2AF0202200FF934D /* ParseCSVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9F99323B2AF0202200FF934D /* ParseCSVUITests.swift */,
+				9F99323D2AF0202200FF934D /* ParseCSVUITestsLaunchTests.swift */,
+			);
+			path = ParseCSVUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F99321C2AF0201D00FF934D /* ParseCSV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F9932412AF0202200FF934D /* Build configuration list for PBXNativeTarget "ParseCSV" */;
+			buildPhases = (
+				9F9932192AF0201D00FF934D /* Sources */,
+				9F99321A2AF0201D00FF934D /* Frameworks */,
+				9F99321B2AF0201D00FF934D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParseCSV;
+			productName = ParseCSV;
+			productReference = 9F99321D2AF0201D00FF934D /* ParseCSV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F99322C2AF0202200FF934D /* ParseCSVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F9932442AF0202200FF934D /* Build configuration list for PBXNativeTarget "ParseCSVTests" */;
+			buildPhases = (
+				9F9932292AF0202200FF934D /* Sources */,
+				9F99322A2AF0202200FF934D /* Frameworks */,
+				9F99322B2AF0202200FF934D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F99322F2AF0202200FF934D /* PBXTargetDependency */,
+			);
+			name = ParseCSVTests;
+			productName = ParseCSVTests;
+			productReference = 9F99322D2AF0202200FF934D /* ParseCSVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9F9932362AF0202200FF934D /* ParseCSVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F9932472AF0202200FF934D /* Build configuration list for PBXNativeTarget "ParseCSVUITests" */;
+			buildPhases = (
+				9F9932332AF0202200FF934D /* Sources */,
+				9F9932342AF0202200FF934D /* Frameworks */,
+				9F9932352AF0202200FF934D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F9932392AF0202200FF934D /* PBXTargetDependency */,
+			);
+			name = ParseCSVUITests;
+			productName = ParseCSVUITests;
+			productReference = 9F9932372AF0202200FF934D /* ParseCSVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F9932152AF0201D00FF934D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					9F99321C2AF0201D00FF934D = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					9F99322C2AF0202200FF934D = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 9F99321C2AF0201D00FF934D;
+					};
+					9F9932362AF0202200FF934D = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 9F99321C2AF0201D00FF934D;
+					};
+				};
+			};
+			buildConfigurationList = 9F9932182AF0201D00FF934D /* Build configuration list for PBXProject "ParseCSV" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F9932142AF0201D00FF934D;
+			productRefGroup = 9F99321E2AF0201D00FF934D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F99321C2AF0201D00FF934D /* ParseCSV */,
+				9F99322C2AF0202200FF934D /* ParseCSVTests */,
+				9F9932362AF0202200FF934D /* ParseCSVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F99321B2AF0201D00FF934D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F9932282AF0202100FF934D /* Preview Assets.xcassets in Resources */,
+				9F9932252AF0202100FF934D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F99322B2AF0202200FF934D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F9932352AF0202200FF934D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F9932192AF0201D00FF934D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F9932232AF0201D00FF934D /* ContentView.swift in Sources */,
+				9F9932212AF0201D00FF934D /* ParseCSVApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F9932292AF0202200FF934D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F9932322AF0202200FF934D /* ParseCSVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F9932332AF0202200FF934D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F99323E2AF0202200FF934D /* ParseCSVUITestsLaunchTests.swift in Sources */,
+				9F99323C2AF0202200FF934D /* ParseCSVUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F99322F2AF0202200FF934D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F99321C2AF0201D00FF934D /* ParseCSV */;
+			targetProxy = 9F99322E2AF0202200FF934D /* PBXContainerItemProxy */;
+		};
+		9F9932392AF0202200FF934D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F99321C2AF0201D00FF934D /* ParseCSV */;
+			targetProxy = 9F9932382AF0202200FF934D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9F99323F2AF0202200FF934D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9F9932402AF0202200FF934D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F9932422AF0202200FF934D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ParseCSV/Preview Content\"";
+				DEVELOPMENT_TEAM = 8PXUZ763N3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nnnsoftware.ParseCSV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F9932432AF0202200FF934D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ParseCSV/Preview Content\"";
+				DEVELOPMENT_TEAM = 8PXUZ763N3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nnnsoftware.ParseCSV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9F9932452AF0202200FF934D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8PXUZ763N3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nnnsoftware.ParseCSVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParseCSV.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ParseCSV";
+			};
+			name = Debug;
+		};
+		9F9932462AF0202200FF934D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8PXUZ763N3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nnnsoftware.ParseCSVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParseCSV.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ParseCSV";
+			};
+			name = Release;
+		};
+		9F9932482AF0202200FF934D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8PXUZ763N3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nnnsoftware.ParseCSVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ParseCSV;
+			};
+			name = Debug;
+		};
+		9F9932492AF0202200FF934D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8PXUZ763N3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nnnsoftware.ParseCSVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ParseCSV;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F9932182AF0201D00FF934D /* Build configuration list for PBXProject "ParseCSV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F99323F2AF0202200FF934D /* Debug */,
+				9F9932402AF0202200FF934D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F9932412AF0202200FF934D /* Build configuration list for PBXNativeTarget "ParseCSV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F9932422AF0202200FF934D /* Debug */,
+				9F9932432AF0202200FF934D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F9932442AF0202200FF934D /* Build configuration list for PBXNativeTarget "ParseCSVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F9932452AF0202200FF934D /* Debug */,
+				9F9932462AF0202200FF934D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F9932472AF0202200FF934D /* Build configuration list for PBXNativeTarget "ParseCSVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F9932482AF0202200FF934D /* Debug */,
+				9F9932492AF0202200FF934D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F9932152AF0201D00FF934D /* Project object */;
+}
