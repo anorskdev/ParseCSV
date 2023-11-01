@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		9F3CA8662AF306B400D38475 /* slope100.csv in Resources */ = {isa = PBXBuildFile; fileRef = 9F3CA8652AF306B400D38475 /* slope100.csv */; };
+		9F3CA8682AF3074F00D38475 /* ExtImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3CA8672AF3074F00D38475 /* ExtImage.swift */; };
+		9F3CA86A2AF30AA700D38475 /* CSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3CA8692AF30AA700D38475 /* CSV.swift */; };
 		9F9932212AF0201D00FF934D /* ParseCSVApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9932202AF0201D00FF934D /* ParseCSVApp.swift */; };
 		9F9932232AF0201D00FF934D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9932222AF0201D00FF934D /* ContentView.swift */; };
 		9F9932252AF0202100FF934D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F9932242AF0202100FF934D /* Assets.xcassets */; };
@@ -36,6 +38,8 @@
 
 /* Begin PBXFileReference section */
 		9F3CA8652AF306B400D38475 /* slope100.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = slope100.csv; sourceTree = "<group>"; };
+		9F3CA8672AF3074F00D38475 /* ExtImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtImage.swift; sourceTree = "<group>"; };
+		9F3CA8692AF30AA700D38475 /* CSV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSV.swift; sourceTree = "<group>"; };
 		9F99321D2AF0201D00FF934D /* ParseCSV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParseCSV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F9932202AF0201D00FF934D /* ParseCSVApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseCSVApp.swift; sourceTree = "<group>"; };
 		9F9932222AF0201D00FF934D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -98,6 +102,8 @@
 			children = (
 				9F9932202AF0201D00FF934D /* ParseCSVApp.swift */,
 				9F9932222AF0201D00FF934D /* ContentView.swift */,
+				9F3CA8672AF3074F00D38475 /* ExtImage.swift */,
+				9F3CA8692AF30AA700D38475 /* CSV.swift */,
 				9F3CA8652AF306B400D38475 /* slope100.csv */,
 				9F9932242AF0202100FF934D /* Assets.xcassets */,
 				9F9932262AF0202100FF934D /* Preview Content */,
@@ -261,7 +267,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F3CA86A2AF30AA700D38475 /* CSV.swift in Sources */,
 				9F9932232AF0201D00FF934D /* ContentView.swift in Sources */,
+				9F3CA8682AF3074F00D38475 /* ExtImage.swift in Sources */,
 				9F9932212AF0201D00FF934D /* ParseCSVApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -349,7 +357,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -403,7 +411,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
